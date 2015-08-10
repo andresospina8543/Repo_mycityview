@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\pre-dexed\debug\gson-2.2.4-8cd06a0f67bd1e94d556c13f777333aff78e4dfe.jar" />
+    </item>
+    <item
+        jar="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\exploded-aar\Repository\google-play-services_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8d1fdd113188f1d95e757d95f67ec3d099dda97d">
+        <dex dex="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\pre-dexed\debug\classes-08b236f906094549a12c4d5fc5f5240d20d2d251.jar" />
+    </item>
+    <item
+        jar="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="33b27a8d2a5b87e6eb6c60e87a5374ffbfeacc3a">
+        <dex dex="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\pre-dexed\debug\android-support-v4-68a17c4eec7147f8a2c25654e7c343043ab0b196.jar" />
+    </item>
+    <item
+        jar="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\exploded-aar\Repository\google-play-services_lib\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="38c2f8e192dc24ddbf6cae2784f3d4267af66a3e">
+        <dex dex="D:\Andres David\00 Datos\estudio\Eafit\Repository\MyCityView\build\intermediates\pre-dexed\debug\google-play-services-c860c64179c8978bd5a2a59bab41bfc82ebfe90d.jar" />
+    </item>
+
+</items>

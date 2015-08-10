@@ -1,0 +1,2 @@
+include ':MyCityView'
+include ':google-play-services_lib'
