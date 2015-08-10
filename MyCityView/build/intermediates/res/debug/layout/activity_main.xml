@@ -1,0 +1,15 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+	<ListView android:id="@+id/LstOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout><!-- From: file:/D:/Andres%20David/00%20Datos/estudio/Eafit/Repository/MyCityView/res/layout/activity_main.xml -->
