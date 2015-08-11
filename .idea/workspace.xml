@@ -9,7 +9,397 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c593ef-c607-4e2d-a1df-5b99c96c4dec" name="Default" comment="Creacion proyecto" />
+    <list default="true" id="79c593ef-c607-4e2d-a1df-5b99c96c4dec" name="Default" comment="Creacion proyecto">
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\.project" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\src\co\com\eafit\entidadbancaria\Cuenta.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\src\co\com\eafit\entidadbancaria\Prueba.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\PracticaFinalVerVal\src\co\com\eafit\entidadbancaria\Prueba2.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview\Repository.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/outputs/aar/google-play-services_lib-debug.aar" afterPath="$PROJECT_DIR$/google-play-services_lib/build/outputs/aar/google-play-services_lib-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/outputs/aar/google-play-services_lib-release.aar" afterPath="$PROJECT_DIR$/google-play-services_lib/build/outputs/aar/google-play-services_lib-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/generated/source/buildConfig/androidTest/debug/co/com/mycityview/test/BuildConfig.java" afterPath="$PROJECT_DIR$/MyCityView/build/generated/source/buildConfig/androidTest/debug/co/com/mycityview/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/generated/source/buildConfig/debug/co/com/mycityview/BuildConfig.java" afterPath="$PROJECT_DIR$/MyCityView/build/generated/source/buildConfig/debug/co/com/mycityview/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/androidTest/debug/com/google/android/gms/test/BuildConfig.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/androidTest/debug/com/google/android/gms/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/debug/com/google/android/gms/BuildConfig.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/debug/com/google/android/gms/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/release/com/google/android/gms/BuildConfig.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/release/com/google/android/gms/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/MyCityView.iml" afterPath="$PROJECT_DIR$/MyCityView/MyCityView.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/generated/source/r/debug/co/com/mycityview/R.java" afterPath="$PROJECT_DIR$/MyCityView/build/generated/source/r/debug/co/com/mycityview/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/MyCityView/build/generated/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/r/androidTest/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/r/androidTest/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" afterPath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/MyCityView/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/release/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeAssets/release/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/incremental/packageResources/release/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/layout/option_main.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/layout/option_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/menu/option_main.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/menu/option_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-af/values-af.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-af/values-af.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-am/values-am.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-am/values-am.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-da/values-da.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-da/values-da.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-de/values-de.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-de/values-de.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-el/values-el.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-el/values-el.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-es/values-es.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-es/values-es.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-in/values-in.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-in/values-in.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-it/values-it.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-it/values-it.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-th/values-th.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-th/values-th.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-v11/values-v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-v14/values-v14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-w820dp-v13/values-w820dp-v13.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-w820dp-v13/values-w820dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/wallet_primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/wallet_primary_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/wallet_primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/wallet_primary_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/wallet_primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/wallet_primary_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/wallet_primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/wallet_primary_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/wallet_secondary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/MyCityView/build/intermediates/res/debug/color/wallet_secondary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/wallet_secondary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/debug/res/color/wallet_secondary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/wallet_secondary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/bundles/release/res/color/wallet_secondary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/wallet_secondary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/intermediates/res/androidTest/debug/color/wallet_secondary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Repository.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -37,19 +427,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyCityView/src/co/com/mycityview/MainActivity.java">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4180328">
-              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-              <folding>
-                <element signature="e#1681#2278#0" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
-                <element signature="e#5244#5245#0" expanded="true" />
-                <element signature="e#5273#5274#0" expanded="true" />
-                <element signature="e#6668#6669#0" expanded="true" />
-                <element signature="e#6704#6705#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +455,6 @@
         <option value="andres.ospina" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -74,14 +466,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Repository" />
+              <option name="name" value="Repo_mycityview" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Repository" />
+                <option name="name" value="Repo_mycityview" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -103,17 +495,17 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Repository'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'Repo_mycityview'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Repository'." />
+                <option name="description" value="Displays all dependencies declared in root project 'Repo_mycityview'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Repository'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Repo_mycityview'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -128,22 +520,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Repository'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'Repo_mycityview'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Repository'." />
+                <option name="description" value="Displays the sub-projects of root project 'Repo_mycityview'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Repository'." />
+                <option name="description" value="Displays the properties of root project 'Repo_mycityview'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Repository' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'Repo_mycityview' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -546,9 +938,9 @@
                 <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Repository:google-play-services_lib:unspecified" />
+                <option name="description" value="Prepare Repo_mycityview:google-play-services_lib:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareRepositoryGooglePlayServices_libUnspecifiedLibrary" />
+                <option name="name" value="prepareRepo_mycityviewGooglePlayServices_libUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1137,9 +1529,9 @@
                 <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Repository:google-play-services_lib:unspecified" />
+                <option name="description" value="Prepare Repo_mycityview:google-play-services_lib:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MyCityView" />
-                <option name="name" value="prepareRepositoryGooglePlayServices_libUnspecifiedLibrary" />
+                <option name="name" value="prepareRepo_mycityviewGooglePlayServices_libUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MyCityView" />
@@ -1793,6 +2185,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="D:\Andres David\00 Datos\estudio\Eafit\Repository" value="5756940110105" />
+        <entry key="D:\francisco.jimenez\AndroidStudioProjects\MyCityView_ok\Repo_mycityview" value="5757018843497" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2050,7 +2443,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="Repository" />
+              <option name="name" value="Repo_mycityview" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/announce" />
@@ -2183,6 +2576,8 @@
         <option value="$PROJECT_DIR$/MyCityView/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MyCityView/src/co/com/mycityview/MainActivity.java" />
         <option value="$PROJECT_DIR$/MyCityView/.project" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -2197,10 +2592,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2213,7 +2607,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2225,8 +2619,51 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Repo_mycityview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Repo_mycityview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Repo_mycityview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Repo_mycityview">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2235,9 +2672,70 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCityView" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2252,21 +2750,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCityView" />
+              <option name="myItemId" value="Repo_mycityview" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2481,7 +2965,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439242987061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se elimina zips">
+      <created>1439255583104</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439255583104</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2494,36 +2984,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.65629745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.34370258" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6904762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.65431166" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.34568834" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6904762" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2540,7 +3030,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Creacion proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion proyecto" />
+    <MESSAGE value="Se elimina zips" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se elimina zips" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2549,11 +3040,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyCityView/src/co/com/mycityview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/google-play-services_lib/libs/google-play-services.jar!/com/google/android/gms/maps/GoogleMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0506567">
           <caret line="652" column="37" selection-start-line="652" selection-start-column="37" selection-end-line="652" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2561,45 +3059,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45132744">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCityView/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25222552">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.425">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCityView/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46174863">
+        <state vertical-scroll-proportion="-0.055555556">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <element signature="e#1054#1072#0" expanded="true" />
             <element signature="e#1238#1277#0" expanded="true" />
-            <element signature="e#1515#1533#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCityView/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCityView/src/co/com/mycityview/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4180328">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-          <folding>
-            <element signature="e#1681#2278#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#5244#5245#0" expanded="true" />
-            <element signature="e#5273#5274#0" expanded="true" />
-            <element signature="e#6668#6669#0" expanded="true" />
-            <element signature="e#6704#6705#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repo_mycityview.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
