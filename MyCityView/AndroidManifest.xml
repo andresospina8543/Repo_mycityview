@@ -14,7 +14,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="22" />
     
     <uses-feature
   		android:glEsVersion="0x00020000"
@@ -33,7 +33,7 @@
 
         <meta-data
     		android:name="com.google.android.maps.v2.API_KEY"
-    		android:value="AIzaSyA5-BnboFKrdXgMiX_b7mujMeH0OGDVW94"/>
+    		android:value="AIzaSyBwUWEck9clpI6kx3BpCHYP2AjpGefl33w"/>
         
         <activity
             android:name=".MainActivity"
