@@ -18,10 +18,13 @@ import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.Projection;
@@ -37,12 +40,33 @@ import com.google.gson.GsonBuilder;
 public class MainActivity extends FragmentActivity {
 
 	private GoogleMap mapa = null;
+	ImageButton imageButton;
+
+
+	public void addListenerOnButton() {
+
+		imageButton = (ImageButton) findViewById(R.id.imageButton1);
+
+		imageButton.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+
+				/*Toast.makeText(MainActivity.this,
+						"ImageButton is clicked!", Toast.LENGTH_SHORT).show();*/
+
+				mostrarUbicacion();
+			}
+
+		});
+
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		addListenerOnButton();
 		mapa = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
 
 		mapa.setOnMapClickListener(new OnMapClickListener() {
@@ -164,11 +188,12 @@ public class MainActivity extends FragmentActivity {
 	}
 
 	private void mostrarUbicacion() {
+
 		comenzarLocalizacion();
 	}
 
 	private void mostrarMarcador(double lat, double lng) {
-		mapa.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title("Pais: España"));
+		mapa.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title("Pais: Espaï¿½a"));
 	}
 
 	private void mostrarLineas() {
@@ -198,16 +223,17 @@ public class MainActivity extends FragmentActivity {
 	private LocationListener locListener;
 
 	private void comenzarLocalizacion() {
+
 		// Obtenemos una referencia al LocationManager
 		locManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-		// Obtenemos la última posición conocida
+		// Obtenemos la ï¿½ltima posiciï¿½n conocida
 		Location loc = locManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
-		// Mostramos la última posición conocida
+		// Mostramos la ï¿½ltima posiciï¿½n conocida
 		mostrarPosicion(loc);
 
-		// Nos registramos para recibir actualizaciones de la posición
+		// Nos registramos para recibir actualizaciones de la posiciï¿½n
 		locListener = new LocationListener() {
 			public void onLocationChanged(Location location) {
 				mostrarPosicion(location);
@@ -237,6 +263,7 @@ public class MainActivity extends FragmentActivity {
 
 			markerPosicion = mapa.addMarker(new MarkerOptions().position(new LatLng(loc.getLatitude(), loc.getLongitude())).title(
 					"Precision: " + loc.getAccuracy()));
+			mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(loc.getLatitude(),loc.getLongitude()), 14.0f));
 
 		} else {
 			Toast.makeText(MainActivity.this, "Sin datos", Toast.LENGTH_SHORT).show();
