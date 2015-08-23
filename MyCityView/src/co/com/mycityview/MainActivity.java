@@ -21,6 +21,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
+import co.com.mycityview.co.com.mycityview.service.MapaService;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
 
@@ -171,17 +173,8 @@ public class MainActivity extends FragmentActivity {
 
 		protected void onPostExecute(Boolean result) {
 			if (ruta != null) {
-				PolylineOptions lineas = new PolylineOptions();
-				lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-						.getStart_location().getLng()));
-				for (Step step : ruta.getRoutes().get(0).getLegs().get(0).getSteps()) {
-					lineas.add(new LatLng(step.getStart_location().getLat(), step.getStart_location().getLng()));
-				}
-				lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-						.getEnd_location().getLng()));
-				lineas.width(8);
-				lineas.color(Color.RED);
-				mapa.addPolyline(lineas);
+				mapa.addPolyline(MapaService.getPolylinesFromRoute(ruta));
+				//mapa.addPolyline(MapaService.getPolylinesFromRoute2(ruta));
 			}
 		}
 
