@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import co.com.mycityview.co.com.mycityview.service.GoogleApiService;
 import co.com.mycityview.co.com.mycityview.service.MapaService;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
@@ -38,6 +39,8 @@ import com.google.android.gms.maps.model.PolygonOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import java.util.List;
 
 public class MainActivity extends FragmentActivity {
 
@@ -152,29 +155,25 @@ public class MainActivity extends FragmentActivity {
 	private class TareaRutas extends AsyncTask<String, Integer, Boolean> {
 
 		RutaGoogleRest ruta;
+		List<RutaGoogleRest> routes;
 
 		@Override
 		protected Boolean doInBackground(String... arg0) {
-			HttpClient httpClient = new DefaultHttpClient();
-			HttpGet del = new HttpGet(
-					"http://maps.googleapis.com/maps/api/directions/json?origin=6.156965,%20-75.603936&destination=6.197671,%20-75.574358");
-			del.setHeader("content-type", "application/json");
-			try {
-				HttpResponse resp = httpClient.execute(del);
-				String respStr = EntityUtils.toString(resp.getEntity());
-				Gson gson = new GsonBuilder().create();
-				ruta = gson.fromJson(respStr, RutaGoogleRest.class);
-				// System.out.println(ruta.getStatus());
-			} catch (Exception ex) {
-				Log.e("ServicioRest", "Error!", ex);
-			}
+			//ruta = GoogleApiService.getRouteTest();
+			routes = GoogleApiService.getRoutesFromGoogle();
 			return null;
 		}
 
 		protected void onPostExecute(Boolean result) {
 			if (ruta != null) {
-				mapa.addPolyline(MapaService.getPolylinesFromRoute(ruta));
-				//mapa.addPolyline(MapaService.getPolylinesFromRoute2(ruta));
+				//mapa.addPolyline(MapaService.getPolylinesFromRoute(ruta));
+			}
+			pintarRutasList();
+		}
+
+		private void pintarRutasList(){
+			for (RutaGoogleRest route: routes){
+				mapa.addPolyline(MapaService.getPolylinesFromRoute(route));
 			}
 		}
 
@@ -229,7 +228,7 @@ public class MainActivity extends FragmentActivity {
 		// Nos registramos para recibir actualizaciones de la posici�n
 		locListener = new LocationListener() {
 			public void onLocationChanged(Location location) {
-				mostrarPosicion(location);
+				//mostrarPosicion(location);
 			}
 
 			public void onProviderDisabled(String provider) {

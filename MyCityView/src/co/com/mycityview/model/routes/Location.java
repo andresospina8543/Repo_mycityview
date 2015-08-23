@@ -1,6 +1,10 @@
 package co.com.mycityview.model.routes;
 
 public class Location {
+	public Location(String lat,String lng) {
+		this.lng = Float.parseFloat(lng);
+		this.lat = Float.parseFloat(lat);
+	}
 
 	private float lat;
 	private float lng;
