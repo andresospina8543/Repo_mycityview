@@ -48,6 +48,7 @@ public class MainActivity extends FragmentActivity {
 	ImageButton imageButton;
 	private Spinner spinner;
 	List<OptionItem> items;
+	PolylineOptions polylineSelected;
 
 	public void addListenerOnButton() {
 
@@ -95,17 +96,17 @@ public class MainActivity extends FragmentActivity {
 		});
 
 		items = new ArrayList<OptionItem>();
-		/*items.add(new OptionItem("primera", 1));
-		items.add(new OptionItem("segundo", 2));
-		items.add(new OptionItem("tercera", 3));*/
 
 		spinner = (Spinner) findViewById(R.id.spinner);
-		spinner.setAdapter(new OptionListAdapter(this,items));
+		//spinner.setAdapter(new OptionListAdapter(this,items));
 		spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
 			@Override
 			public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
 				//Toast.makeText(adapterView.getContext(), ((OptionItem) adapterView.getItemAtPosition(position)).getName(), Toast.LENGTH_SHORT).show();
-				mapa.addPolyline(MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest()));
+				mapa.clear();
+				mostrarUbicacion();
+				polylineSelected = MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
+				mapa.addPolyline(polylineSelected);
 			}
 
 			@Override
@@ -169,24 +170,28 @@ public class MainActivity extends FragmentActivity {
 	}
 
 	private void consultarRuta() {
-		TareaRutas tarea = new TareaRutas();
+		TareaRutas tarea = new TareaRutas(getApplicationContext());
 		tarea.execute();
 
 	}
 
 	private class TareaRutas extends AsyncTask<String, Integer, Boolean> {
 
+
+		Context context;
 		RutaGoogleRest ruta;
 		List<RutaGoogleRest> routes;
+		List<OptionItem> opItems;
+
+		public TareaRutas(Context context) {
+			this.context = context;
+		}
 
 		@Override
 		protected Boolean doInBackground(String... arg0) {
 			//ruta = GoogleApiService.getRouteTest();
 			//routes = GoogleApiService.getRoutesFromGoogle();
-			List<OptionItem> opItems = GoogleApiService.getRoutesItemsFromGoogle();
-			for(OptionItem opt: opItems){
-				items.add(opt);
-			}
+			opItems = GoogleApiService.getRoutesItemsFromGoogle();
 
 			return null;
 		}
@@ -198,6 +203,9 @@ public class MainActivity extends FragmentActivity {
 			pintarRutasList();
 			*/
 			spinner.setVisibility(View.VISIBLE);
+			items.clear();
+			items.addAll(opItems);
+			spinner.setAdapter(new OptionListAdapter(context,items));
 		}
 
 		private void pintarRutasList(){
