@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import co.com.mycityview.model.routes.Location;
+import co.com.mycityview.model.routes.OptionItem;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 
 /**
@@ -25,12 +26,30 @@ public class GoogleApiService {
     public static List<RutaGoogleRest> getRoutesFromGoogle(){
         List<RutaGoogleRest> routes = new ArrayList<RutaGoogleRest>();
         RutaGoogleRest ruta = null;
-        Location[] origen =  new Location[]{new Location("6.156965","-75.603936")};
-        Location[] destino =  new Location[]{new Location("6.197671","-75.574358")};
+        Location[] origen =  new Location[]{new Location("6.156965","-75.603936"), new Location("6.158199","-75.609604")};
+        Location[] destino =  new Location[]{new Location("6.197671","-75.574358"), new Location("6.215097","-75.576104")};
         for (int i = 0; i < origen.length; i++) {
             ruta = getRouteByOriginDestin(origen[i],destino[i]);
             if(ruta !=null){
                 routes.add(ruta);
+            }
+        }
+        return routes;
+    }
+
+
+    public static List<OptionItem> getRoutesItemsFromGoogle(){
+        List<OptionItem> routes = new ArrayList<OptionItem>();
+        RutaGoogleRest ruta = null;
+        OptionItem optionItem;
+        Location[] origen =  new Location[]{new Location("6.156965","-75.603936"), new Location("6.158199","-75.609604")};
+        Location[] destino =  new Location[]{new Location("6.197671","-75.574358"), new Location("6.215097","-75.576104")};
+        for (int i = 0; i < origen.length; i++) {
+            ruta = getRouteByOriginDestin(origen[i],destino[i]);
+            if(ruta !=null){
+                optionItem = new OptionItem("Ruta "+i+1,i+1);
+                optionItem.setRutaGoogleRest(ruta);
+                routes.add(optionItem);
             }
         }
         return routes;

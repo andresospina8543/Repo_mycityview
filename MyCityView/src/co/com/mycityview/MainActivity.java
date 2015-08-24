@@ -1,11 +1,5 @@
 package co.com.mycityview;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Point;
@@ -19,13 +13,18 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageButton;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import co.com.mycityview.co.com.mycityview.service.GoogleApiService;
 import co.com.mycityview.co.com.mycityview.service.MapaService;
+import co.com.mycityview.model.routes.OptionItem;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -40,13 +39,15 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends FragmentActivity {
 
 	private GoogleMap mapa = null;
 	ImageButton imageButton;
-
+	private Spinner spinner;
+	List<OptionItem> items;
 
 	public void addListenerOnButton() {
 
@@ -92,6 +93,27 @@ public class MainActivity extends FragmentActivity {
 				// .defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 			}
 		});
+
+		items = new ArrayList<OptionItem>();
+		/*items.add(new OptionItem("primera", 1));
+		items.add(new OptionItem("segundo", 2));
+		items.add(new OptionItem("tercera", 3));*/
+
+		spinner = (Spinner) findViewById(R.id.spinner);
+		spinner.setAdapter(new OptionListAdapter(this,items));
+		spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+			@Override
+			public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+				//Toast.makeText(adapterView.getContext(), ((OptionItem) adapterView.getItemAtPosition(position)).getName(), Toast.LENGTH_SHORT).show();
+				mapa.addPolyline(MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest()));
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> adapterView) {
+				//nothing
+			}
+		});
+		spinner.setVisibility(View.INVISIBLE);
 
 		// mapa.setOnMapLongClickListener(new OnMapLongClickListener() {
 		// public void onMapLongClick(LatLng point) {
@@ -160,15 +182,22 @@ public class MainActivity extends FragmentActivity {
 		@Override
 		protected Boolean doInBackground(String... arg0) {
 			//ruta = GoogleApiService.getRouteTest();
-			routes = GoogleApiService.getRoutesFromGoogle();
+			//routes = GoogleApiService.getRoutesFromGoogle();
+			List<OptionItem> opItems = GoogleApiService.getRoutesItemsFromGoogle();
+			for(OptionItem opt: opItems){
+				items.add(opt);
+			}
+
 			return null;
 		}
 
 		protected void onPostExecute(Boolean result) {
-			if (ruta != null) {
+			/*if (ruta != null) {
 				//mapa.addPolyline(MapaService.getPolylinesFromRoute(ruta));
 			}
 			pintarRutasList();
+			*/
+			spinner.setVisibility(View.VISIBLE);
 		}
 
 		private void pintarRutasList(){
