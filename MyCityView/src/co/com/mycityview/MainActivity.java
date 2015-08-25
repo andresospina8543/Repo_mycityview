@@ -44,7 +44,7 @@ import java.util.List;
 
 public class MainActivity extends FragmentActivity {
 
-	private GoogleMap mapa = null;
+	public GoogleMap mapa = null;
 	ImageButton imageButton;
 	private Spinner spinner;
 	List<OptionItem> items;
@@ -106,6 +106,7 @@ public class MainActivity extends FragmentActivity {
 				mapa.clear();
 				mostrarUbicacion();
 				polylineSelected = MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
+				MapaService.addMarkeresPositionRoutes(mapa, ((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
 				mapa.addPolyline(polylineSelected);
 			}
 
@@ -205,7 +206,7 @@ public class MainActivity extends FragmentActivity {
 			spinner.setVisibility(View.VISIBLE);
 			items.clear();
 			items.addAll(opItems);
-			spinner.setAdapter(new OptionListAdapter(context,items));
+			spinner.setAdapter(new OptionListAdapter(context, items));
 		}
 
 		private void pintarRutasList(){

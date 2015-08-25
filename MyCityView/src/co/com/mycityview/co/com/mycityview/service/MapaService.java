@@ -1,14 +1,24 @@
 package co.com.mycityview.co.com.mycityview.service;
 
-import android.graphics.Color;
 
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
+import co.com.mycityview.R;
+import co.com.mycityview.model.routes.Location;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
 
@@ -125,4 +135,10 @@ public class MapaService {
         return path;
     }
 
+    public static void addMarkeresPositionRoutes(GoogleMap mapa, RutaGoogleRest rutaGoogleRest) {
+        Location startLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(0).getStart_location();
+        Location endLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().size()-1).getEnd_location();
+        mapa.addMarker(new MarkerOptions().position(new LatLng(startLoc.getLat(), startLoc.getLng())).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        mapa.addMarker(new MarkerOptions().position(new LatLng(endLoc.getLat(), endLoc.getLng())).icon(BitmapDescriptorFactory.fromResource(R.drawable.meta01)));
+    }
 }
