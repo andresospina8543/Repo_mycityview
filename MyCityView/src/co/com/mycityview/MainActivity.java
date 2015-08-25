@@ -105,9 +105,13 @@ public class MainActivity extends FragmentActivity {
 				//Toast.makeText(adapterView.getContext(), ((OptionItem) adapterView.getItemAtPosition(position)).getName(), Toast.LENGTH_SHORT).show();
 				mapa.clear();
 				mostrarUbicacion();
-				polylineSelected = MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
-				MapaService.addMarkeresPositionRoutes(mapa, ((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
-				mapa.addPolyline(polylineSelected);
+				if(((OptionItem) adapterView.getItemAtPosition(position)).getIcon() != 0) {
+					polylineSelected = MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
+					MapaService.addMarkeresPositionRoutes(mapa, ((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
+					mapa.addPolyline(polylineSelected);
+				}else{
+					spinner.setVisibility(View.INVISIBLE);
+				}
 			}
 
 			@Override
@@ -206,6 +210,7 @@ public class MainActivity extends FragmentActivity {
 			spinner.setVisibility(View.VISIBLE);
 			items.clear();
 			items.addAll(opItems);
+			items.add(new OptionItem("Clear", 0));
 			spinner.setAdapter(new OptionListAdapter(context, items));
 		}
 
