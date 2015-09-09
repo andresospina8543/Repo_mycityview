@@ -20,7 +20,9 @@ import android.widget.Toast;
 
 import co.com.mycityview.co.com.mycityview.service.GoogleApiService;
 import co.com.mycityview.co.com.mycityview.service.MapaService;
+import co.com.mycityview.co.com.mycityview.service.RutaClienteService;
 import co.com.mycityview.model.routes.OptionItem;
+import co.com.mycityview.model.routes.RutaDTO;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
 import android.widget.AdapterView;
@@ -76,7 +78,7 @@ public class MainActivity extends FragmentActivity {
 		addListenerOnButton();
 		mapa = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
 
-		mapa.setOnMapClickListener(new OnMapClickListener() {
+		/*mapa.setOnMapClickListener(new OnMapClickListener() {
 			public void onMapClick(LatLng point) {
 				Projection proj = mapa.getProjection();
 				Point coord = proj.toScreenLocation(point);
@@ -93,7 +95,7 @@ public class MainActivity extends FragmentActivity {
 				// .icon(BitmapDescriptorFactory
 				// .defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 			}
-		});
+		});*/
 
 		items = new ArrayList<OptionItem>();
 
@@ -103,7 +105,18 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
 				//Toast.makeText(adapterView.getContext(), ((OptionItem) adapterView.getItemAtPosition(position)).getName(), Toast.LENGTH_SHORT).show();
-				mapa.clear();
+
+				if(((OptionItem) adapterView.getItemAtPosition(position)).getIcon() != 0) {
+					TareaConsultaRuta consultaRuta = new TareaConsultaRuta(getApplicationContext(),((OptionItem) adapterView.getItemAtPosition(position)).getRutaDTO().getIdRuta());
+					consultaRuta.execute();
+				}else{
+					spinner.setVisibility(View.INVISIBLE);
+				}
+
+
+
+
+				/*mapa.clear();
 				mostrarUbicacion();
 				if(((OptionItem) adapterView.getItemAtPosition(position)).getIcon() != 0) {
 					polylineSelected = MapaService.getPolylinesFromRoute(((OptionItem) adapterView.getItemAtPosition(position)).getRutaGoogleRest());
@@ -111,7 +124,7 @@ public class MainActivity extends FragmentActivity {
 					mapa.addPolyline(polylineSelected);
 				}else{
 					spinner.setVisibility(View.INVISIBLE);
-				}
+				}*/
 			}
 
 			@Override
@@ -121,30 +134,42 @@ public class MainActivity extends FragmentActivity {
 		});
 		spinner.setVisibility(View.INVISIBLE);
 
-		// mapa.setOnMapLongClickListener(new OnMapLongClickListener() {
-		// public void onMapLongClick(LatLng point) {
-		// // Projection proj = mapa.getProjection();
-		// // Point coord = proj.toScreenLocation(point);
-		// //
-		// // Toast.makeText(
-		// // MainActivity.this,
-		// // "Click Largo\n" + "Lat: " + point.latitude + "\n"
-		// // + "Lng: " + point.longitude + "\n" + "X: "
-		// // + coord.x + " - Y: " + coord.y,
-		// // Toast.LENGTH_SHORT).show();
-		//
-		// comenzarLocalizacion();
-		// }
-		// });
+		mapa.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
+			public void onMapLongClick(LatLng point) {
+				Projection proj = mapa.getProjection();
+				Point coord = proj.toScreenLocation(point);
+				Location loc = new Location("click");
+				loc.setLatitude(point.latitude);
+				loc.setLongitude(point.longitude);
+				mostrarPosicion(loc);
 
-		// mapa.setOnMarkerClickListener(new OnMarkerClickListener() {
-		// public boolean onMarkerClick(Marker marker) {
-		// Toast.makeText(MainActivity.this,
-		// "Marcador pulsado:\n" + marker.getTitle(),
-		// Toast.LENGTH_SHORT).show();
-		// return false;
-		// }
-		// });
+				TareaConsultaRutas tareaConsultaRutas = new TareaConsultaRutas(getApplicationContext());
+				tareaConsultaRutas.execute();
+
+				/*List<OptionItem> opItems = RutaClienteService.consultarRutasByLocation(loc);
+				spinner.setVisibility(View.VISIBLE);
+				items.clear();
+				items.addAll(opItems);
+				items.add(new OptionItem("Clear", 0));
+				spinner.setAdapter(new OptionListAdapter(getApplicationContext(), items));*/
+				/*Toast.makeText(
+						MainActivity.this,
+						"Click Largo\n" + "Lat: " + point.latitude + "\n"
+								+ "Lng: " + point.longitude + "\n" + "X: "
+								+ coord.x + " - Y: " + coord.y,
+						Toast.LENGTH_SHORT).show();*/
+				//comenzarLocalizacion();
+			}
+		});
+
+		/*mapa.setOnMarkerClickListener(new OnMarkerClickListener() {
+		 public boolean onMarkerClick(Marker marker) {
+		 Toast.makeText(MainActivity.this,
+		"Marcador pulsado:\n" + marker.getTitle(),
+		 Toast.LENGTH_SHORT).show();
+		 return false;
+		 }
+		});*/
 
 	}
 
@@ -178,6 +203,62 @@ public class MainActivity extends FragmentActivity {
 		TareaRutas tarea = new TareaRutas(getApplicationContext());
 		tarea.execute();
 
+	}
+
+
+
+	private class TareaConsultaRuta extends  AsyncTask<String, Integer, Boolean>{
+
+		Context context;
+		RutaDTO ruta = null;
+		int identificador;
+
+
+		public TareaConsultaRuta(Context context, int identificador){
+			this.context = context;
+			this.identificador = identificador;
+		}
+
+		@Override
+		protected Boolean doInBackground(String... arg0) {
+			ruta = RutaClienteService.consultarRutaById(identificador);
+			return null;
+		}
+
+
+		protected void onPostExecute(Boolean result) {
+			if(ruta != null){
+				mapa.clear();
+				mostrarUbicacion();
+				polylineSelected = MapaService.getPolylines(ruta.getListLocation());
+				MapaService.addMarkeresPositionRoutes(mapa,ruta);
+			}
+		}
+	}
+
+	private class TareaConsultaRutas extends  AsyncTask<String, Integer, Boolean>{
+
+		Context context;
+		List<OptionItem> opItems;
+
+		public TareaConsultaRutas(Context context){
+			this.context = context;
+		}
+
+		@Override
+		protected Boolean doInBackground(String... arg0) {
+			opItems = RutaClienteService.consultarRutasByLocation(new co.com.mycityview.model.routes.Location("2"/*markerPosicion.getPosition().latitude*/, "3"/*markerPosicion.getPosition().longitude*/));
+			return null;
+		}
+
+
+		protected void onPostExecute(Boolean result) {
+			spinner.setVisibility(View.VISIBLE);
+			items.clear();
+			items.addAll(opItems);
+			items.add(new OptionItem("Clear", 0));
+			spinner.setAdapter(new OptionListAdapter(context, items));
+		}
 	}
 
 	private class TareaRutas extends AsyncTask<String, Integer, Boolean> {

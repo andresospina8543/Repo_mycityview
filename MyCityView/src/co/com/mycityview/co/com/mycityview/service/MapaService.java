@@ -19,6 +19,8 @@ import java.util.List;
 
 import co.com.mycityview.R;
 import co.com.mycityview.model.routes.Location;
+import co.com.mycityview.model.routes.OptionItem;
+import co.com.mycityview.model.routes.RutaDTO;
 import co.com.mycityview.model.routes.RutaGoogleRest;
 import co.com.mycityview.model.routes.Step;
 
@@ -31,31 +33,44 @@ public class MapaService {
             PolylineOptions lineas = new PolylineOptions();
             if (ruta != null) {
 
-                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-                        .getStart_location().getLng()));
+                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
+                        .getStart_location().getLongitud()));
                 for (Step step : ruta.getRoutes().get(0).getLegs().get(0).getSteps()) {
                     for(LatLng latLng: decode(step.getPolyline().getPoints())){
                         lineas.add(latLng);
                     }
                 }
-                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-                        .getEnd_location().getLng()));
+                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
+                        .getEnd_location().getLongitud()));
                 lineas.width(8);
                 lineas.color(Color.RED);
             }
         return lineas;
     }
 
+
+    public static PolylineOptions getPolylines(List<Location> ruta){
+        PolylineOptions lineas = new PolylineOptions();
+        if (ruta != null) {
+            for (Location loc : ruta) {
+                lineas.add(new LatLng(loc.getLatitud(),loc.getLongitud()));
+            }
+            lineas.width(8);
+            lineas.color(Color.RED);
+        }
+        return lineas;
+    }
+
     public static PolylineOptions getPolylinesFromRoute2(RutaGoogleRest ruta){
         PolylineOptions lineas = new PolylineOptions();
         if (ruta != null) {
-            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-                    .getStart_location().getLng()));
+            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
+                    .getStart_location().getLongitud()));
             for (Step step : ruta.getRoutes().get(0).getLegs().get(0).getSteps()) {
-                lineas.add(new LatLng(step.getStart_location().getLat(), step.getStart_location().getLng()));
+                lineas.add(new LatLng(step.getStart_location().getLatitud(), step.getStart_location().getLongitud()));
             }
-            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLat(), ruta.getRoutes().get(0).getLegs().get(0)
-                    .getEnd_location().getLng()));
+            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
+                    .getEnd_location().getLongitud()));
             lineas.width(8);
             lineas.color(Color.RED);
         }
@@ -138,7 +153,15 @@ public class MapaService {
     public static void addMarkeresPositionRoutes(GoogleMap mapa, RutaGoogleRest rutaGoogleRest) {
         Location startLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(0).getStart_location();
         Location endLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().size()-1).getEnd_location();
-        mapa.addMarker(new MarkerOptions().position(new LatLng(startLoc.getLat(), startLoc.getLng())).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
-        mapa.addMarker(new MarkerOptions().position(new LatLng(endLoc.getLat(), endLoc.getLng())).icon(BitmapDescriptorFactory.fromResource(R.drawable.meta01)));
+        mapa.addMarker(new MarkerOptions().position(new LatLng(startLoc.getLatitud(), startLoc.getLongitud())).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        mapa.addMarker(new MarkerOptions().position(new LatLng(endLoc.getLatitud(), endLoc.getLongitud())).icon(BitmapDescriptorFactory.fromResource(R.drawable.meta01)));
+    }
+
+
+    public static void addMarkeresPositionRoutes(GoogleMap mapa, RutaDTO ruta) {
+        Location startLoc = ruta.getListLocation().get(0);
+        Location endLoc = ruta.getListLocation().get(ruta.getListLocation().size()-1);
+        mapa.addMarker(new MarkerOptions().position(new LatLng(startLoc.getLatitud(), startLoc.getLongitud())).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        mapa.addMarker(new MarkerOptions().position(new LatLng(endLoc.getLatitud(), endLoc.getLongitud())).icon(BitmapDescriptorFactory.fromResource(R.drawable.meta01)));
     }
 }

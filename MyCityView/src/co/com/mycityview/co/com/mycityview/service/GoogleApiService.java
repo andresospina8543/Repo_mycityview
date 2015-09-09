@@ -59,7 +59,7 @@ public class GoogleApiService {
         RutaGoogleRest ruta = null;
         HttpClient httpClient = new DefaultHttpClient();
         HttpGet del = new HttpGet(
-                "http://maps.googleapis.com/maps/api/directions/json?origin="+origin.getLat()+",%20"+origin.getLng()+"&destination="+destination.getLat()+",%20"+destination.getLng());
+                "http://maps.googleapis.com/maps/api/directions/json?origin="+origin.getLatitud()+",%20"+origin.getLongitud()+"&destination="+destination.getLatitud()+",%20"+destination.getLongitud());
         del.setHeader("content-type", "application/json");
         try {
             HttpResponse resp = httpClient.execute(del);

@@ -1,24 +1,29 @@
 package co.com.mycityview.model.routes;
 
 public class Location {
-	public Location(String lat,String lng) {
-		this.lng = Float.parseFloat(lng);
-		this.lat = Float.parseFloat(lat);
+	public Location(String latitud,String longitud) {
+		this.latitud = Float.parseFloat(latitud);
+		this.longitud = Float.parseFloat(longitud);
 	}
 
-	private float lat;
-	private float lng;
-	public float getLat() {
-		return lat;
+	private float latitud;
+	private float longitud;
+
+	public float getLatitud() {
+		return latitud;
 	}
-	public void setLat(float lat) {
-		this.lat = lat;
+
+	public Location setLatitud(float latitud) {
+		this.latitud = latitud;
+		return this;
 	}
-	public float getLng() {
-		return lng;
+
+	public float getLongitud() {
+		return longitud;
 	}
-	public void setLng(float lng) {
-		this.lng = lng;
+
+	public Location setLongitud(float longitud) {
+		this.longitud = longitud;
+		return this;
 	}
-	
 }

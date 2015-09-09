@@ -12,6 +12,15 @@ public class OptionItem {
     private String name;
     private int icon;
     private RutaGoogleRest rutaGoogleRest;
+    private RutaDTO rutaDTO;
+
+    public RutaDTO getRutaDTO() {
+        return rutaDTO;
+    }
+
+    public void setRutaDTO(RutaDTO rutaDTO) {
+        this.rutaDTO = rutaDTO;
+    }
 
     public RutaGoogleRest getRutaGoogleRest() {
         return rutaGoogleRest;
