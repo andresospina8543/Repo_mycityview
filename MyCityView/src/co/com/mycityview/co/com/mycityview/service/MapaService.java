@@ -29,26 +29,11 @@ import co.com.mycityview.model.routes.Step;
  */
 public class MapaService {
 
-    public static PolylineOptions getPolylinesFromRoute(RutaGoogleRest ruta){
-            PolylineOptions lineas = new PolylineOptions();
-            if (ruta != null) {
-
-                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
-                        .getStart_location().getLongitud()));
-                for (Step step : ruta.getRoutes().get(0).getLegs().get(0).getSteps()) {
-                    for(LatLng latLng: decode(step.getPolyline().getPoints())){
-                        lineas.add(latLng);
-                    }
-                }
-                lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
-                        .getEnd_location().getLongitud()));
-                lineas.width(8);
-                lineas.color(Color.RED);
-            }
-        return lineas;
-    }
-
-
+    /**
+     * Obtiene el PolylineOptions a partir de una lista de coordenadas
+     * @param ruta
+     * @return
+     */
     public static PolylineOptions getPolylines(List<Location> ruta){
         PolylineOptions lineas = new PolylineOptions();
         if (ruta != null) {
@@ -61,59 +46,11 @@ public class MapaService {
         return lineas;
     }
 
-    public static PolylineOptions getPolylinesFromRoute2(RutaGoogleRest ruta){
-        PolylineOptions lineas = new PolylineOptions();
-        if (ruta != null) {
-            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getStart_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
-                    .getStart_location().getLongitud()));
-            for (Step step : ruta.getRoutes().get(0).getLegs().get(0).getSteps()) {
-                lineas.add(new LatLng(step.getStart_location().getLatitud(), step.getStart_location().getLongitud()));
-            }
-            lineas.add(new LatLng(ruta.getRoutes().get(0).getLegs().get(0).getEnd_location().getLatitud(), ruta.getRoutes().get(0).getLegs().get(0)
-                    .getEnd_location().getLongitud()));
-            lineas.width(8);
-            lineas.color(Color.RED);
-        }
-        return lineas;
-    }
-
-
-    private static ArrayList<LatLng> decodePoly(String encoded) {
-
-
-        ArrayList<LatLng> poly = new ArrayList<LatLng>();
-        int index = 0, len = encoded.length();
-        int lat = 0, lng = 0;
-
-        while (index < len) {
-            int b, shift = 0, result = 0;
-            do {
-                b = encoded.charAt(index++) - 63;
-                result |= (b & 0x1f) << shift;
-                shift += 5;
-            } while (b >= 0x20);
-            int dlat = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
-            lat += dlat;
-
-            shift = 0;
-            result = 0;
-            do {
-                b = encoded.charAt(index++) - 63;
-                result |= (b & 0x1f) << shift;
-                shift += 5;
-            } while (b >= 0x20);
-            int dlng = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
-            lng += dlng;
-
-            LatLng p = new LatLng((int) (((double) lat /1E5)* 1E6), (int) (((double) lng/1E5   * 1E6)));
-            poly.add(p);
-        }
-
-
-        return poly;
-    }
-
-
+    /**
+     * Obtiene la lista de coordenadas decodificadas
+     * @param encodedPath
+     * @return
+     */
     public static List<LatLng> decode(final String encodedPath) {
         int len = encodedPath.length();
 
@@ -150,14 +87,11 @@ public class MapaService {
         return path;
     }
 
-    public static void addMarkeresPositionRoutes(GoogleMap mapa, RutaGoogleRest rutaGoogleRest) {
-        Location startLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(0).getStart_location();
-        Location endLoc = rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().get(rutaGoogleRest.getRoutes().get(0).getLegs().get(0).getSteps().size()-1).getEnd_location();
-        mapa.addMarker(new MarkerOptions().position(new LatLng(startLoc.getLatitud(), startLoc.getLongitud())).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
-        mapa.addMarker(new MarkerOptions().position(new LatLng(endLoc.getLatitud(), endLoc.getLongitud())).icon(BitmapDescriptorFactory.fromResource(R.drawable.meta01)));
-    }
-
-
+    /**
+     * Adiciona los markers inicio y  fin de una ruta en el mapa
+     * @param mapa
+     * @param ruta
+     */
     public static void addMarkeresPositionRoutes(GoogleMap mapa, RutaDTO ruta) {
         Location startLoc = ruta.getListLocation().get(0);
         Location endLoc = ruta.getListLocation().get(ruta.getListLocation().size()-1);
