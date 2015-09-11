@@ -126,19 +126,19 @@ public class MainActivity extends FragmentActivity {
 		// Nos registramos para recibir actualizaciones de la posicion
 		locListener = new LocationListener() {
 			public void onLocationChanged(Location location) {
-				//mostrarPosicion(location);
+				mostrarPosicion(location);
 			}
 
 			public void onProviderDisabled(String provider) {
-				Toast.makeText(MainActivity.this, "Provider OFF", Toast.LENGTH_SHORT).show();
+				//Toast.makeText(MainActivity.this, "Provider OFF", Toast.LENGTH_SHORT).show();
 			}
 
 			public void onProviderEnabled(String provider) {
-				Toast.makeText(MainActivity.this, "Provider ON ", Toast.LENGTH_SHORT).show();
+				//Toast.makeText(MainActivity.this, "Provider ON ", Toast.LENGTH_SHORT).show();
 			}
 
 			public void onStatusChanged(String provider, int status, Bundle extras) {
-				Toast.makeText(MainActivity.this, "Provider Status: " + status, Toast.LENGTH_SHORT).show();
+				//Toast.makeText(MainActivity.this, "Provider Status: " + status, Toast.LENGTH_SHORT).show();
 			}
 		};
 
@@ -165,6 +165,7 @@ public class MainActivity extends FragmentActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case R.id.salir:
+				setResult(RESULT_OK);
 				finish();
 				break;
 		}
