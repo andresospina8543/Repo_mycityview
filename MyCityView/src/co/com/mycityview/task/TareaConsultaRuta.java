@@ -40,6 +40,7 @@ public class TareaConsultaRuta extends AsyncTask<String, Integer, Boolean> {
             activity.mapa.clear();
             activity.mapa.addMarker(new MarkerOptions().position(activity.markerPosicion.getPosition()));
             polylineSelected = MapaService.getPolylines(ruta.getListLocation());
+            activity.mapa.addPolyline(polylineSelected);
             MapaService.addMarkeresPositionRoutes(activity.mapa,ruta);
         }
     }

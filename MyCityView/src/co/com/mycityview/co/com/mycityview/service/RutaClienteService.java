@@ -73,7 +73,9 @@ public class RutaClienteService {
     public static RutaDTO consultarRutaById(int identificador){
         RutaDTO ruta = null;
         HttpClient httpClient = new DefaultHttpClient();
+        //172.32.0.242:8080
         HttpGet del = new HttpGet("http://172.32.0.242:8080/mycityviewBE/rest/ruta/"+identificador);
+        //HttpGet del = new HttpGet("http://172.32.1.231:8081/mycityviewBE/rest/ruta/"+identificador);
         del.setHeader("content-type", "application/json");
         del.setHeader("Authorization", "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==");
         try {
