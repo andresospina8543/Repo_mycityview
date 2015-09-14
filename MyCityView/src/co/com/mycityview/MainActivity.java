@@ -126,7 +126,7 @@ public class MainActivity extends FragmentActivity {
 		// Nos registramos para recibir actualizaciones de la posicion
 		locListener = new LocationListener() {
 			public void onLocationChanged(Location location) {
-				mostrarPosicion(location);
+				//mostrarPosicion(location);
 			}
 
 			public void onProviderDisabled(String provider) {

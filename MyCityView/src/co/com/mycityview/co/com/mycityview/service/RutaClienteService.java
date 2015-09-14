@@ -30,6 +30,8 @@ import co.com.mycityview.model.routes.RutaDTO;
 public class RutaClienteService {
 
 
+    private static final String HOST_BACKEND = "http://jbossews-mycityview.rhcloud.com/";
+
     /**
      * Consulta las rutas segun una coordenada seleccionada
      * @param point
@@ -40,7 +42,7 @@ public class RutaClienteService {
         OptionItem optItem = null;
         List<OptionItem> options = new ArrayList<OptionItem>();
         HttpClient httpClient = new DefaultHttpClient();
-        HttpGet del = new HttpGet("http://172.32.0.242:8080/mycityviewBE/rest/ruta/consultar?latitud="+point.latitude+"&longitud="+point.longitude);
+        HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/consultar?latitud="+point.latitude+"&longitud="+point.longitude);
         del.setHeader("content-type", "application/json");
         del.setHeader("Authorization", "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==");
         try {
@@ -74,7 +76,7 @@ public class RutaClienteService {
         RutaDTO ruta = null;
         HttpClient httpClient = new DefaultHttpClient();
         //172.32.0.242:8080
-        HttpGet del = new HttpGet("http://172.32.0.242:8080/mycityviewBE/rest/ruta/"+identificador);
+        HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/"+identificador);
         //HttpGet del = new HttpGet("http://172.32.1.231:8081/mycityviewBE/rest/ruta/"+identificador);
         del.setHeader("content-type", "application/json");
         del.setHeader("Authorization", "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==");
