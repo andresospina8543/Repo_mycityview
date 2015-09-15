@@ -3,7 +3,6 @@ package co.com.mycityview.co.com.mycityview.service;
 
 import android.util.Log;
 
-
 import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -17,11 +16,12 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-import co.com.mycityview.model.routes.Location;
 import co.com.mycityview.model.routes.OptionItem;
 import co.com.mycityview.model.routes.RutaDTO;
+import co.com.mycityview.security.EncryptClass;
 
 
 /**
@@ -46,7 +46,7 @@ public class RutaClienteService {
         HttpClient httpClient = new DefaultHttpClient();
         HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/consultar?latitud="+point.latitude+"&longitud="+point.longitude);
         del.setHeader("content-type", CONTENT_TYPE);
-        del.setHeader("Authorization", getAuthorization());
+        del.setHeader("Authorization", getAuthorization().trim());
         try {
             HttpResponse resp = httpClient.execute(del);
             if(resp.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
@@ -77,11 +77,9 @@ public class RutaClienteService {
     public static RutaDTO consultarRutaById(int identificador){
         RutaDTO ruta = null;
         HttpClient httpClient = new DefaultHttpClient();
-        //172.32.0.242:8080
         HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/"+identificador);
-        //HttpGet del = new HttpGet("http://172.32.1.231:8081/mycityviewBE/rest/ruta/"+identificador);
         del.setHeader("content-type", CONTENT_TYPE);
-        del.setHeader("Authorization", getAuthorization());
+        del.setHeader("Authorization", getAuthorization().trim());
         try {
             HttpResponse resp = httpClient.execute(del);
             if(resp.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
@@ -96,7 +94,7 @@ public class RutaClienteService {
     }
 
     private static String getAuthorization(){
-        //EncryptClass...
-        return "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==";
+        EncryptClass encrypt = new EncryptClass("encrip_mycityview");
+        return encrypt.encrypt("usuario.rest:ftd*+55qx:"+UtilService.dateToString(new Date(), "dd-MM-yyyy-HH-mm"));
     }
 }
