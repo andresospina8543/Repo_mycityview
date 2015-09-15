@@ -31,6 +31,8 @@ public class RutaClienteService {
 
 
     private static final String HOST_BACKEND = "http://jbossews-mycityview.rhcloud.com/";
+    private static final String CONTENT_TYPE = "application/json";
+
 
     /**
      * Consulta las rutas segun una coordenada seleccionada
@@ -43,8 +45,8 @@ public class RutaClienteService {
         List<OptionItem> options = new ArrayList<OptionItem>();
         HttpClient httpClient = new DefaultHttpClient();
         HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/consultar?latitud="+point.latitude+"&longitud="+point.longitude);
-        del.setHeader("content-type", "application/json");
-        del.setHeader("Authorization", "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==");
+        del.setHeader("content-type", CONTENT_TYPE);
+        del.setHeader("Authorization", getAuthorization());
         try {
             HttpResponse resp = httpClient.execute(del);
             if(resp.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
@@ -78,8 +80,8 @@ public class RutaClienteService {
         //172.32.0.242:8080
         HttpGet del = new HttpGet(HOST_BACKEND+"mycityviewBE/rest/ruta/"+identificador);
         //HttpGet del = new HttpGet("http://172.32.1.231:8081/mycityviewBE/rest/ruta/"+identificador);
-        del.setHeader("content-type", "application/json");
-        del.setHeader("Authorization", "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==");
+        del.setHeader("content-type", CONTENT_TYPE);
+        del.setHeader("Authorization", getAuthorization());
         try {
             HttpResponse resp = httpClient.execute(del);
             if(resp.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
@@ -91,5 +93,10 @@ public class RutaClienteService {
             Log.e("ServicioRest", "Error!", ex);
         }
         return ruta;
+    }
+
+    private static String getAuthorization(){
+        //EncryptClass...
+        return "E666+ra+0+Wm+uiqQKVobgjBOdl5UCbYr3m2VuAJwFTzRYJyLcrCEg==";
     }
 }
