@@ -34,6 +34,11 @@ public class TareaConsultaRuta extends AsyncTask<String, Integer, Boolean> {
         return null;
     }
 
+    @Override
+    protected void onPreExecute() {
+        // mostramos el progress Dialog
+        activity.showProgressDialog();
+    }
 
     protected void onPostExecute(Boolean result) {
         if(ruta != null){
@@ -41,7 +46,8 @@ public class TareaConsultaRuta extends AsyncTask<String, Integer, Boolean> {
             activity.mapa.addMarker(new MarkerOptions().position(activity.markerPosicion.getPosition()));
             polylineSelected = MapaService.getPolylines(ruta.getListLocation());
             activity.mapa.addPolyline(polylineSelected);
-            MapaService.addMarkeresPositionRoutes(activity.mapa,ruta);
+            MapaService.addMarkeresPositionRoutes(activity.mapa, ruta);
         }
+        activity.dismissProgress();
     }
 }

@@ -1,8 +1,10 @@
 package co.com.mycityview;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Point;
+import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -57,6 +59,7 @@ public class MainActivity extends FragmentActivity {
 	private LocationListener locListener;
 	private Location actualLocation;
 	public Marker markerPosicion = null;
+	private ProgressDialog mProgressDialog;
 
 	public void addListenerOnButton() {
 		imageButton = (ImageButton) findViewById(R.id.imageButton1);
@@ -86,6 +89,7 @@ public class MainActivity extends FragmentActivity {
 				if (((OptionItem) adapterView.getItemAtPosition(position)).getIcon() != 0) {
 					TareaConsultaRuta consultaRuta = new TareaConsultaRuta(MainActivity.this, ((OptionItem) adapterView.getItemAtPosition(position)).getRutaDTO().getIdRuta());
 					consultaRuta.execute();
+					mostrarPosicion(actualLocation);
 				} else {
 					mapa.clear();
 					mostrarPosicion(actualLocation);
@@ -177,6 +181,30 @@ public class MainActivity extends FragmentActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+
+	public void showProgressDialog () {
+
+		if(mProgressDialog==null){
+			mProgressDialog = new ProgressDialog(this);
+			mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+			mProgressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+			//mProgressDialog.setMessage(messageToShow);
+			mProgressDialog.setCancelable(false);
+			mProgressDialog.show();
+			mProgressDialog.setContentView(R.layout.progressbar);
+		}else{
+			if(!mProgressDialog.isShowing()){
+				mProgressDialog.show();
+			}
+		}
+
+	}
+	public void dismissProgress () {
+
+		if (mProgressDialog != null) {
+			mProgressDialog.dismiss();
+		}
 	}
 
 

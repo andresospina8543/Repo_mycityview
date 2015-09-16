@@ -36,6 +36,11 @@ public class TareaConsultaRutas extends AsyncTask<String, Integer, Boolean> {
         return null;
     }
 
+    @Override
+    protected void onPreExecute() {
+        // mostramos el progress Dialog
+        activity.showProgressDialog();
+    }
 
     protected void onPostExecute(Boolean result) {
         if(opItems != null && !opItems.isEmpty()) {
@@ -47,6 +52,7 @@ public class TareaConsultaRutas extends AsyncTask<String, Integer, Boolean> {
         }else{
             Toast.makeText(activity, "No se pudo obtener el listado de rutas", Toast.LENGTH_SHORT).show();
         }
+        activity.dismissProgress();
     }
 
 }
